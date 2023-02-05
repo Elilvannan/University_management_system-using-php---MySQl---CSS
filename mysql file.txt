@@ -1,0 +1,7 @@
+create database php;
+use php;
+
+create table users_details(username varchar(30),user_address varchar(30),user_email varchar(30),user_password varchar(30));
+create table student_details(st_id char(5),st_name varchar(30),st_address varchar(30), stemail varchar(30),st_dob varchar(30),st_phone varchar(30));
+create table lecture_details(lec_id char(5),lec_name varchar(30),lec_address varchar(30), lecemail varchar(30),lec_dob varchar(30),lec_phone varchar(30));
+create table course_details(cou_id char(7),cou_name varchar(30),credit char(1));
